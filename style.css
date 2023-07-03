@@ -7,6 +7,7 @@
 }
 
 .debug .container,
+.debug section,
 .debug .col-60,
 .debug .col-40,
 .debug .col-20 {
@@ -108,6 +109,7 @@ section {
 
 .reverse {
     flex-direction: row-reverse;
+
 }
 
 /* #endregion SECTIONS */
