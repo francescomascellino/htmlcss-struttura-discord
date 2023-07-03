@@ -7,8 +7,6 @@
 }
 
 .debug .container,
-.debug .hero,
-.debug .hero-text,
 .debug .col-60,
 .debug .col-40 {
     border: 1px solid red;
