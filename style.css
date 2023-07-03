@@ -33,7 +33,7 @@
 /* #region HEADER AND NAVBAR */
 
 header {
-    background-color: rgb(33, 141, 141);
+    background-color: rgb(100, 141, 33);
 }
 
 nav {
@@ -43,7 +43,7 @@ nav {
     width: 80%;
     height: 3rem;
     margin: auto;
-    background-color: rgba(0, 255, 255, 0.37);
+    background-color: rgba(0, 255, 42, 0.644);
 }
 
 .logo {
