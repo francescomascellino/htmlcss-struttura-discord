@@ -6,6 +6,72 @@
     padding: 0;
 }
 
+.debug .container,
+.debug .hero,
+.debug .hero-text {
+    border: 1px solid red;
+    min-height: 100px;
+    min-width: 100px;
+}
 
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
 
 /* #endregion GLOBAL RULES */
+
+/* #region HEADER AND NAVBAR */
+
+header {
+    background-color: azure;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 3rem;
+    margin: auto;
+    background-color: rgba(0, 255, 255, 0.11);
+}
+
+.logo {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: blue;
+}
+
+.btn-container {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: blue;
+}
+
+/* #endregion HEADER AND NAVBAR */
+
+/* #region HERO */
+
+.hero {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: azure;
+}
+
+.hero-text {
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+/* #endregion HERO */
