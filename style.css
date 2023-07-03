@@ -8,10 +8,11 @@
 
 .debug .container,
 .debug .hero,
-.debug .hero-text {
+.debug .hero-text,
+.debug .col-60,
+.debug .col-40 {
     border: 1px solid red;
-    min-height: 100px;
-    min-width: 100px;
+    min-height: 200px;
 }
 
 .container {
@@ -22,7 +23,6 @@
 
 .row {
     display: flex;
-    justify-content: space-between;
     align-content: center;
 }
 
@@ -62,7 +62,7 @@ nav {
 
 .hero {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     padding: 2rem;
     background-color: azure;
@@ -75,3 +75,38 @@ nav {
 }
 
 /* #endregion HERO */
+
+/* #region SECTIONS */
+
+section {
+    background-color: lightblue;
+}
+
+.col-60 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+
+}
+
+.col-40 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+
+.card {
+    height: 125px;
+    width: 175px;
+    background-color: bisque;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* #endregion SECTIONS */
