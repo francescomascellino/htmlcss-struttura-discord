@@ -33,7 +33,7 @@
 /* #region HEADER AND NAVBAR */
 
 header {
-    background-color: azure;
+    background-color: rgb(33, 141, 141);
 }
 
 nav {
@@ -43,7 +43,7 @@ nav {
     width: 80%;
     height: 3rem;
     margin: auto;
-    background-color: rgba(0, 255, 255, 0.11);
+    background-color: rgba(0, 255, 255, 0.37);
 }
 
 .logo {
