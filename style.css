@@ -24,6 +24,7 @@
 .row {
     display: flex;
     align-content: center;
+    background-color: teal;
 }
 
 /* #endregion GLOBAL RULES */
@@ -113,9 +114,33 @@ section {
 
 /* #region FOOTER */
 
+footer {
+    background-color: thistle;
+    padding-bottom: 2rem;
+}
+
 .col-20 {
     width: 20%;
     background-color: darkorange;
 }
+
+.row.ftr {
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.lft-element {
+    background-color: darkblue;
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.rgt-element {
+    background-color: black;
+    width: 5rem;
+    height: 2.5rem;
+}
+
 
 /* #endregion FOOTER */
