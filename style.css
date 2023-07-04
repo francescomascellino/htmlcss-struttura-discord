@@ -86,8 +86,9 @@
 
 .debug .card {
     background-color: bisque;
+    height: 125px;
+    width: 175px;
 }
-
 
 .debug footer {
     background-color: thistle;
@@ -160,12 +161,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-
-.card {
-    height: 125px;
-    width: 175px;
 
 }
 
