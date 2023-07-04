@@ -1,4 +1,4 @@
-/* region GLOBAL RULES */
+/* #region GLOBAL RULES */
 
 * {
     box-sizing: border-box;
@@ -6,35 +6,108 @@
     padding: 0;
 }
 
-.debug .container,
-.debug section,
-.debug .col-60,
-.debug .col-40,
-.debug .col-20 {
-    border: 1px solid red;
-    min-height: 200px;
-}
-
 .container {
     width: 80%;
     max-width: 1170px;
     margin: auto;
-    background-color: darkred;
 }
 
 .row {
     display: flex;
     align-content: center;
-    background-color: teal;
 }
 
 /* #endregion GLOBAL RULES */
 
-/* #region HEADER AND NAVBAR */
+/* #region DEBUG */
 
-header {
+.debug .container,
+.debug .col-60,
+.debug .col-40,
+.debug .col-20 {
+    border: 1px solid red;
+
+}
+
+.debug [class^='col-'],
+.debug .container {
+    min-height: 200px;
+}
+
+.debug section,
+.debug header,
+.debug nav,
+.debug footer,
+.debug .hero {
+    border: 1px dashed blueviolet;
+}
+
+.debug .hero-text {
+    border: 2px solid rgb(255, 47, 245);
+    background-color: aquamarine;
+}
+
+.debug .container {
+    background-color: darkred;
+}
+
+.debug .row {
+    background-color: teal;
+}
+
+.debug header {
     background-color: rgb(100, 141, 33);
 }
+
+.debug nav {
+    background-color: rgba(0, 255, 42, 0.644);
+}
+
+.debug .logo,
+.debug .btn-container {
+    background-color: blue;
+}
+
+.debug .hero {
+    background-color: azure;
+}
+
+.debug section {
+    background-color: lightblue;
+}
+
+.debug .col-60 {
+    background-color: goldenrod;
+}
+
+.debug .col-40 {
+    background-color: gold;
+}
+
+.debug .card {
+    background-color: bisque;
+}
+
+
+.debug footer {
+    background-color: thistle;
+}
+
+.debug .col-20 {
+    background-color: darkorange;
+}
+
+.debug .lft-element {
+    background-color: darkblue;
+}
+
+.debug .rgt-element {
+    background-color: black;
+}
+
+/* #endregion DEBUG */
+
+/* #region HEADER AND NAVBAR */
 
 nav {
     display: flex;
@@ -43,19 +116,16 @@ nav {
     width: 80%;
     height: 3rem;
     margin: auto;
-    background-color: rgba(0, 255, 42, 0.644);
 }
 
 .logo {
     width: 5rem;
     height: 2.5rem;
-    background-color: blue;
 }
 
 .btn-container {
     width: 5rem;
     height: 2.5rem;
-    background-color: blue;
 }
 
 /* #endregion HEADER AND NAVBAR */
@@ -67,30 +137,22 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-color: azure;
 }
 
 .hero-text {
     width: 300px;
     height: 200px;
-    background-color: aquamarine;
 }
 
 /* #endregion HERO */
 
 /* #region SECTIONS */
 
-section {
-    background-color: lightblue;
-}
-
 .col-60 {
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: goldenrod;
-
 }
 
 .col-40 {
@@ -98,18 +160,17 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gold;
+
 }
 
 .card {
     height: 125px;
     width: 175px;
-    background-color: bisque;
+
 }
 
 .reverse {
     flex-direction: row-reverse;
-
 }
 
 /* #endregion SECTIONS */
